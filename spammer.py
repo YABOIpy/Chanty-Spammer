@@ -12,14 +12,14 @@ def main(token, channel, message, payloadchannel, proxylist):
             "accept-language": "en-GB,en-US;q=0.9,en;q=0.8",
             "authorization": f"bearer {token}",
             "content-type": "application/json; charset=UTF-8",
-            "cookie": "__ca__chat=phgaqkggpivr",
+            "cookie": "__ca__chat=phgjishpivr",
             "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"100\", \"Google Chrome\";v=\"100\"",
             "sec-ch-ua-mobile": "?0",
             "sec-ch-ua-platform": "Windows",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
             "sec-fetch-site": "same-origin",
-            "sentry-trace": "2d451edba864406c91843c0e264edb3c-a3116150ad5e0eb1-0",
+            "sentry-trace": "2d4554edba863606c91f43c0e264edb3c-a3116150hd5e0eb1-0",
             "user-agent":  str(agent) 
         }
         payload = {

@@ -56,7 +56,9 @@ def menu():
     tokens = open("tokens.txt", "r").read().splitlines()
     channel = input(f"<{clr_cyan}/{clr_reset}> channel Link: ")
     payloadchannel = input(f"<{clr_cyan}/{clr_reset}> Channel Name: ")
-    message = input(f"<{clr_cyan}/{clr_reset}> message:  ")
+    message = input(f"<{clr_cyan}/{clr_reset}> message: ")
+    if message == "!random":
+        message = os.urandom(363).hex()
     threads = input(f"<{clr_cyan}/{clr_reset}> threads: ")
     for token in tokens:
         for i in range(int(threads)):
